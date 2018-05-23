@@ -1,0 +1,30 @@
+body, a {
+  -webkit-transition: color 0.5s ease;
+  transition: color 0.5s ease;
+}
+
+.overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-blend-mode: darken;
+}
+
+#blend-header {
+  height: 60px;
+}
+
+.figure-caption {
+  color: AliceBlue;
+  opacity: 0.9;
+}
+
+#blend-toolbar, #start-blend {
+  max-height: 38px;
+}
+
+#start-blend, #next-blend {
+  cursor: pointer;
+}
